@@ -1,5 +1,4 @@
-%%writefile app-ml.py
-import streamlit as st 
+import streamlit as st
 import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
